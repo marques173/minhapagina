@@ -33,27 +33,31 @@ body{
 
 main{
     
-    min-width:400px;
-    max-width:1000px;
+    min-width: 500px;
+    max-width: 1000px;
     margin: auto;
     border-radius: 20px;   
 }
 
 main section article img{
     border-radius: 10px;
-    width: 100%;     
+    width: 100%; 
+       
 }
-header,img{
+header img{
     width: 300px;
+    padding: 10px;
+    
     
    
 }
-header,h3{
+{
     width:100% ;
     
 }
 header h3{
-    color: rgb(168, 160, 160);
+    
+    color: rgb(68, 211, 103);
     height: 100px;
     text-align: center;
     padding: 10px;
@@ -70,13 +74,13 @@ header h3 a{
 }
 
 h1{
-    color: rgb(245, 14, 14);
-    font-family: var(--fonte-android);
+    color: rgb(247, 235, 235);
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 40pt;
     padding: 15px;
 }
 h2{
-    font-family: var(--fonte-destaque);
+    
     font-size: 2em;
     color: var(--cor1);
     padding: 20px;
