@@ -27,9 +27,8 @@
 
 body{
    background-color: var(--cor2);
-   min-width: 320px;
-   max-width: 1018;
-   overflow-x: hidden;
+  
+   
     
 
 }
@@ -51,15 +50,14 @@ header img{
     width: 300px;
     padding: 10px;
     margin: auto;
-    
+    min-width: 320px;
+    max-width: 1018px;
+   
     
     
    
 }
-{
-    width:100% ;
-    
-}
+   
 header h3{
     
     color: rgb(68, 211, 103);
@@ -79,9 +77,9 @@ header h3 a{
 }
 
 h1{
-    color: rgb(247, 235, 235);
+    color: rgb(247, 242, 242);
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 40pt;
+    
     padding: 15px;
 }
 h2{
