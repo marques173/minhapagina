@@ -33,8 +33,8 @@ body{
 
 main{
     
-    min-width: 750px;
-    max-width: 1000px;
+    min-width: 320px;
+    max-width: 800px;
     margin: auto;
     border-radius: 20px;   
 }
