@@ -1,0 +1,114 @@
+
+@import url('https://fonts.googleapis.com/css2? family= Bebas+Neue & display=swap');
+
+@font-face{
+    font-family: "android";
+    src: url("fontes/idroid.otf")format("opentype");
+    font-weight: normal;
+}
+
+:root{
+
+    --cor1:#DF8026;
+    --cor2:#354053;
+    --cor3:#202630;
+    
+
+    --fonte-android: 'android', 'cursive';
+    --fonte-destaque: 'destaque','Bebas Neue', 'cursiva';
+
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+
+body{
+   background-color: var(--cor2);
+    
+
+}
+
+main{
+    background-color: white;
+    min-width:400px;
+    max-width:1000px;
+    margin: auto;
+    border-radius: 20px;   
+}
+
+main section article img{
+    border-radius: 10px;
+    width: 100%;     
+}
+header,img{
+    width: 300px;
+    
+   
+}
+header,h3{
+    width:100% ;
+    
+}
+header h3{
+    color: rgb(168, 160, 160);
+    height: 100px;
+    text-align: center;
+    padding: 10px;
+    
+}
+header h3 a:hover{
+    color: yellowgreen;
+    
+    
+}
+header h3 a{
+    color: var(--cor1);
+    
+}
+
+h1{
+    color: whitesmoke;
+    font-family: var(--fonte-android);
+    font-size: 40pt;
+    padding: 15px;
+}
+h2{
+    font-family: var(--fonte-destaque);
+    font-size: 2em;
+    color: var(--cor1);
+    padding: 20px;
+    
+}
+
+p{
+  font-family: var(--fonte-destaque);
+  font-size: 20px; 
+  text-align: justify; 
+  padding: 20px;
+  
+
+    
+    
+}
+footer p{
+   background-color: var(--cor3); 
+   color: var(--cor1);
+   padding: 10px;
+}
+main footer p a{
+    text-decoration:none  ;
+    color: yellowgreen;
+    
+    
+    
+}
+
+
+
+
+
+    
+    
