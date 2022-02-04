@@ -24,15 +24,10 @@
     
 }
 
-
 body{
    background-color: var(--cor2);
-  
-   
-    
 
 }
-
 main{
     
     min-width: 320px;
@@ -40,24 +35,28 @@ main{
     margin: auto;
       
 }
+main img{
+    width: 300px;
+    
+    margin: auto;
+}
 header img{
-    width: 200px;
-    
-    
-    
+    width: 300px;
+    padding: 10px;
+    margin: auto;   
 }
 
 main section article img{
     border-radius: 10px;
     width: 100%; 
     margin: auto;
-       
+          
 }
 
    
 header h3{
     
-    color: rgb(68, 211, 103);
+    color: rgb(240, 247, 243);
     padding: 10px;
     text-align: center;
     
@@ -77,9 +76,8 @@ header h3 a{
 h2{
     
     font-size: 2em;
-    color: azure
-    
-    
+    color: #DF8026;
+    padding: 10px;   
 }
 
 p{
@@ -87,23 +85,21 @@ p{
   font-size: 20px; 
   text-align: justify; 
   
-  color: azure
-
-    
-    
+  color: #DF8026;
+  padding: 10px; 
 }
 footer p{
    background-color: var(--cor3); 
    color: var(--cor1);
+   padding: 10px;
    
 }
 main footer p a{
     text-decoration:none  ;
     color: yellowgreen;
     font-family: var(--fonte-android);
-    
-    
-    
+    padding: 10px;
+       
 }
 
 
