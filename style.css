@@ -32,7 +32,7 @@ body{
 }
 
 main{
-    background-color: white;
+    
     min-width:400px;
     max-width:1000px;
     margin: auto;
@@ -70,7 +70,7 @@ header h3 a{
 }
 
 h1{
-    color: whitesmoke;
+    color: rgb(245, 14, 14);
     font-family: var(--fonte-android);
     font-size: 40pt;
     padding: 15px;
@@ -84,11 +84,11 @@ h2{
 }
 
 p{
-  font-family: var(--fonte-destaque);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-size: 20px; 
   text-align: justify; 
   padding: 20px;
-  
+  color: var(--cor1);
 
     
     
@@ -101,6 +101,7 @@ footer p{
 main footer p a{
     text-decoration:none  ;
     color: yellowgreen;
+    font-family: var(--fonte-android);
     
     
     
