@@ -38,32 +38,29 @@ main{
     min-width: 320px;
     max-width: 1018px;
     margin: auto;
-    border-radius: 20px;   
+      
+}
+header, img{
+    width: 300px;
+    margin: auto;
+    
+    
 }
 
 main section article img{
     border-radius: 10px;
     width: 100%; 
+    margin: auto;
        
 }
-header img{
-    width: 300px;
-    padding: 10px;
-    margin: auto;
-    min-width: 320px;
-    max-width: 1018px;
-   
-    
-    
-   
-}
+
    
 header h3{
     
     color: rgb(68, 211, 103);
-    height: 100px;
-    text-align: center;
     padding: 10px;
+    text-align: center;
+    
     
 }
 header h3 a:hover{
@@ -76,17 +73,12 @@ header h3 a{
     
 }
 
-h1{
-    color: rgb(247, 242, 242);
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    
-    padding: 15px;
-}
+
 h2{
     
     font-size: 2em;
     color: var(--cor1);
-    padding: 20px;
+    
     
 }
 
@@ -94,7 +86,7 @@ p{
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-size: 20px; 
   text-align: justify; 
-  padding: 20px;
+  
   color: var(--cor1);
 
     
@@ -103,7 +95,7 @@ p{
 footer p{
    background-color: var(--cor3); 
    color: var(--cor1);
-   padding: 10px;
+   
 }
 main footer p a{
     text-decoration:none  ;
